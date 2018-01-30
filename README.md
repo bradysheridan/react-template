@@ -1,7 +1,7 @@
 ## react-template
 A springboard for React web apps.
 
-##### Rationale
+#### Rationale
 Whenever I start a new project, I create the same file structure and write the same base code. I've generalized that code and am storing it here along with a bash script that I've aliased on my machine for quick project creation.
 
 ##### `./template`
