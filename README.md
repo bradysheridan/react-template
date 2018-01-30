@@ -7,6 +7,16 @@ Whenever I start a new project, I create the same file structure and write the s
 ##### `./template`
 Contains directory structure, code, and node modules that I use on virtually all of my React projects.
 
+##### `./template/___server.js`
+Handles Node server configuration
+- Sets root Express directory to `./public/`
+- Enables `body-parser`
+- Enables `cookie-parser`
+- Sets view engine to EJS
+- Sets root views directory to `./public/views`
+- Sets up CORS headers
+- Starts listening on port (env port or port 8080, by default)
+
 ##### `./scripts/create`
 Copies the contents of `./template` into your working directory. Asks for **four params**:
 1. Site name: the name of your project's GitHub repository; also used in a few logs
