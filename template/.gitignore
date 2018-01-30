@@ -1,0 +1,14 @@
+# dependency modules
+node_modules
+
+# cached data
+public/assets/css/.sass-cache/
+
+# assets that aren't used by site
+public/assets/nodeploy/
+
+# sensitive env vars
+.env
+
+# miscellaneous
+.DS_Store

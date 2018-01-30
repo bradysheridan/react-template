@@ -1,0 +1,1 @@
+exports.Other = require('./Other')
