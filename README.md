@@ -4,7 +4,7 @@ A starting point for React web projects.
 ### Rationale
 Whenever I start a new project, I create the same file structure and write the same base code. I've generalized that code and am storing it here along with a bash script that I've aliased on my machine for quick project creation.
 
-##### [`./template`](/tree/master/template)
+##### [`./template`](/template)
 Contains directory structure, code, and node modules that I use on virtually all of my React projects.
 
 ##### `./scripts/create`
